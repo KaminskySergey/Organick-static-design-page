@@ -10,7 +10,7 @@ export const OrganicHighlights = () => {
            {
             organicHighlights.map((el, idx) => (
                 <li key={idx} className="">
-                      <img src={`/src/assets/${el.img}.webp`} alt={el.text} />
+                      <img src={`/${el.img}.webp`} alt={el.text} />
                 </li>
             ))
            }

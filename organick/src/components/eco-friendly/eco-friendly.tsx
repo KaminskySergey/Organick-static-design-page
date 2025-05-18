@@ -9,7 +9,7 @@ import { TitleSection } from "../utils/title-section"
 export const EcoFriendly = () => {
     return <Section className="p-0">
         <Container className="flex p-0">
-            <div className="w-1/2 h-[704px] bg-[url('/src/assets/field.webp')] bg-contain bg-center bg-no-repeat">
+            <div className="w-1/2 h-[704px] bg-[url('/field.webp')] bg-contain bg-center bg-no-repeat">
 
             </div>
             <div className="w-1/2 relative">

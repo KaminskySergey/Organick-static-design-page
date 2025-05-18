@@ -18,7 +18,7 @@ export const ItemProduct = ({ title, image, priceOld, priceNew, rating, category
                 {/* image */}
                 <div className="h-[378px] w-full overflow-hidden rounded-[20px]">
                     <img
-                        src={`/src/assets/organic/${image}.webp`}
+                        src={`/organic/${image}.webp`}
                         alt={title}
                         className="w-full h-full object-cover"
                     />

@@ -13,7 +13,7 @@ export function AboutUsSection({ }: IAboutUsSection) {
     return <Section className="bg-[#F9F8F8] pt-[130px] pb-[140px]">
         <Container className="flex  gap-[30px]">
             <div className="w-1/2">
-                <img src="/src/assets/about-us.png" alt="about-us" />
+                <img src="/about-us.png" alt="about-us" />
             </div>
             <div className="flex flex-col w-1/2">
                 {/* first */}

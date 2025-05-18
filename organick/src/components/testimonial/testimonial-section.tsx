@@ -22,7 +22,7 @@ const circleInfo = [
 ]
 
 export function TestimonialSection() {
-    return <Section className="bg-[url('/src/assets/testimonial.webp')] ml-auto mr-auto max-w-[1440px] w-full h-[1248px] bg-contain bg-center bg-no-repeat pt-[130px] pb-[150px]">
+    return <Section className="bg-[url('/testimonial.webp')] ml-auto mr-auto max-w-[1440px] w-full h-[1248px] bg-contain bg-center bg-no-repeat pt-[130px] pb-[150px]">
         <Container className="flex flex-col items-center">
             <TestimonialTitle />
             <div className="mt-[60px]">

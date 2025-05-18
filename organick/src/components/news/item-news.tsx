@@ -15,7 +15,7 @@ interface IItemNews {
 export const ItemNews = ({ name, description, title, img }: IItemNews) => {
     return <li className="relative ">
         <div>
-            <img src={`/src/assets/${img}.jpg`} alt={img} />
+            <img src={`/${img}.jpg`} alt={img} />
         </div>
         <div className="rounded-[30px] text-start w-[610px] p-[50px] drop-shadow-custom bg-white absolute top-1/2 left-1/2 transform -translate-x-1/2">
             <div className="flex items-center gap-[10px] ">
