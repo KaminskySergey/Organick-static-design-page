@@ -1,0 +1,41 @@
+    #root {
+        /* max-width: 1440px; */
+        margin: 0 auto;
+        /* padding: 2rem; */
+        text-align: center;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+    
+    html,
+    body {
+        font-family: 'Roboto', sans-serif !important;
+        font-weight: 400
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0;
+        padding: 0;
+    }
+    
+    p {
+        font-weight: 400
+    }
